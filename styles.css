@@ -1,29 +1,9 @@
-body {
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background-color: white;
-}
+#box{
+	margin: 20px; 
+	border: 15px solid blue; 
+	padding: 50px; 
+	width: 300px; 
+	background-color: lightblue; 
+	box-sizing: border-box;
 
-.outer-box {
-    margin: 20px;
-    border: 15px solid blue;
-    background-color: blue;
-    display: inline-block;
-}
-
-.inner-box {
-    padding: 50px;
-    width: 300px;
-    background-color: lightblue;
-    color: black;
-    text-align: center;
-    box-sizing: border-box;
-}
-
-p {
-    margin: 0;
 }
