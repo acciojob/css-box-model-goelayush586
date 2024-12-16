@@ -1,9 +1,14 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
 #box{
 	margin: 20px; 
 	border: 15px solid blue; 
 	padding: 50px; 
 	width: 300px; 
 	background-color: lightblue; 
-	box-sizing: border-box;
+	
 
 }
